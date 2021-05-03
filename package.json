@@ -1,0 +1,29 @@
+{
+  "name": "dash-to-telegram",
+  "version": "1.0.0",
+  "description": "Generates images of my dasboards and sends them on Telegram channels",
+  "main": "src/index.js",
+  "bin": {
+    "@fabiodocarmo/dash-to-telegram": "bin/dash-to-telegram",
+    "dash-to-telegram": "bin/dash-to-telegram"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "dash-to-telegram"
+  ],
+  "author": "Fábio do Carmo Gomes <contato@fabiodocarmo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.18",
+    "ora": "^5.4.0",
+    "puppeteer": "^1.20.0",
+    "telegram-bot-api": "^2.0.1",
+    "yargs": "^16.2.0"
+  }
+}
